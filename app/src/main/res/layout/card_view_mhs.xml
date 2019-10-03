@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Text1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNim"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Text2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNama" />
+
+        <TextView
+            android:id="@+id/txtGender"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Text3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNim" />
+
+        <TextView
+            android:id="@+id/txtHobi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Text4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtGender" />
+
+        <TextView
+            android:id="@+id/txtCita2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Text5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtHobi" />
+
+        <TextView
+            android:id="@+id/txtMotoHidup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Text6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCita2" />
+
+        <ImageView
+            android:id="@+id/imgPict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="41dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
